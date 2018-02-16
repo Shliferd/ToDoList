@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!--
+    <at.markushi.ui.CircleButton
+        android:id="@+id/circleButton"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="17dp"
+        android:src="@drawable/notchecked"
+        app:cb_color="#99CC00"
+        app:cb_pressedRingWidth="8dip"
+        android:onClick="checkButtonActivate"/>
+        -->
+
+    <Button
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:layout_marginEnd="17dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/notchecked"
+        android:id="@+id/circleButton"/>
+
+    <TextView
+        android:id="@+id/nameTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:text="Programming Android"
+        android:textSize="35dp"
+        android:layout_marginEnd="72dp"
+        android:textColor="#000000"
+        android:layout_below="@+id/circleButton"/>
+
+    <TextView
+        android:id="@+id/timeTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nameTask"
+        android:layout_marginBottom="10dp"
+        android:text="15 January"
+        android:textSize="30dp"
+        android:textColor="#535353"
+        android:layout_marginStart="10dp"/>
+
+
+</RelativeLayout>

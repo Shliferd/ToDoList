@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.andrei.mateatodo.HomeTODO"
+    android:background="@drawable/homeback"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sunday"
+        android:textColor="#363636"
+        android:textSize="48dp"
+        android:paddingLeft="15dp"
+        android:id="@+id/bannerDay"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/bannerDay"
+        android:text="15 January"
+        android:textColor="#363636"
+        android:textSize="30dp"
+        android:paddingLeft="15dp"
+        android:id="@+id/bannerDate"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/bannerDate"
+        android:text="5:40 AM"
+        android:textColor="#363636"
+        android:textSize="26dp"
+        android:paddingLeft="15dp"
+        android:id="@+id/bannerTime"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/bannerTime"
+        android:id="@+id/recyclerView"></android.support.v7.widget.RecyclerView>
+
+
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/itemAdd"
+        android:icon="@drawable/add"
+        android:title="Add task"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/itemChart"
+        android:icon="@drawable/chart"
+        android:title="View chart"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/itemMaps"
+        android:icon="@drawable/maps"
+        android:title="View maps"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/itemAnimation"
+        android:icon="@drawable/ic_3d_rotation_black_24dp"
+        android:title="Animation"
+        app:showAsAction="always" />
+
+</menu>
